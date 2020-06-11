@@ -1,0 +1,37 @@
+.navbar {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    align-items: center;   
+
+    @media (max-width: 568px) {
+        justify-content: center;
+    }
+
+    .logo{
+        background-image: url('../../assets/logo.svg');
+        width: 190px;
+        height: 80px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+.info_box {
+    display: flex;
+    align-items: center;
+    
+    @media (max-width: 568px) {
+        position: absolute;
+        bottom: 50px;
+    }
+    
+    p {
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-left: 0.5rem;
+    }
+}
+

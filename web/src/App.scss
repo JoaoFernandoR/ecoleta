@@ -1,0 +1,38 @@
+:root {
+    --text-color: #6C6C80;
+    --text-primary: #322153;
+    --green-primary: #389D67;
+    --green-secondary: #34CB79;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #F0F0F5;
+    -webkit-font-smoothing: antialiased;
+    color: var(--text-color);
+  }
+  
+  body, input, button {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+    font-family: Ubuntu;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
